@@ -1,5 +1,5 @@
-mod collatz_conjecture;
+mod sum_of_multiples;
 
 fn main() {
-    collatz_conjecture::collatz(0);
+    sum_of_multiples::sum_of_multiples(1, &[0]);
 }
