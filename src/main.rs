@@ -1,5 +1,5 @@
-mod armstrong;
+mod bottle_song;
 
 fn main() {
-    println!("{}", armstrong::is_armstrong_number(153));
+    println!("{}", bottle_song::bottle_song(10, 10));
 }
