@@ -1,3 +1,5 @@
-mod leap;
+mod collatz_conjecture;
 
-fn main() {}
+fn main() {
+    collatz_conjecture::collatz(0);
+}
