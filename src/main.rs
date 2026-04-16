@@ -1,6 +1,6 @@
-mod difference_of_squares;
+mod bob;
 
 fn main() {
-    // println!("{}", bottle_song::bottle_song(10, 10));
-    difference_of_squares::sum_of_squares(5);
+    println!("{}", bob::is_message_uppercase("1,2,3 GO!"));
+    println!("{}", bob::reply("1,2,3 GO!"))
 }
