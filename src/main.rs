@@ -1,8 +1,6 @@
-// mod hello_world;
-mod reverse_string;
+mod luhn;
 
 fn main() {
-    // hello_world::hello_world();
-    let output = reverse_string::reverse("input");
-    println!("{}", output)
+    let is_valid = luhn::luhn("59");
+    println!("{}", is_valid);
 }
