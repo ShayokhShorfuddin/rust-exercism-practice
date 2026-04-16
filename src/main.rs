@@ -1,5 +1,3 @@
-mod prime_factors;
+mod leap;
 
-fn main() {
-    prime_factors::factors(12);
-}
+fn main() {}
