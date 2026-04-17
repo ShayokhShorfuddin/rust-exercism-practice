@@ -1,5 +1,5 @@
-mod isbn_verifier;
+mod series;
 
 fn main() {
-    println!("{}", isbn_verifier::is_valid_isbn("4-598-21507-B"));
+    dbg!(series::series("12345", 6));
 }
