@@ -1,5 +1,5 @@
-mod series;
+mod matching_brackets;
 
 fn main() {
-    dbg!(series::series("12345", 6));
+    dbg!(matching_brackets::brackets_are_balanced("{what is 42)}?"));
 }
