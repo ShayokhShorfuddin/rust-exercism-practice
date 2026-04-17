@@ -1,10 +1,3 @@
-mod build_proverb;
+mod raindrops;
 
-fn main() {
-    println!(
-        "{}",
-        build_proverb::build_proverb(&[
-            "nail", "shoe", "horse", "rider", "message", "battle", "kingdom",
-        ])
-    );
-}
+fn main() {}
