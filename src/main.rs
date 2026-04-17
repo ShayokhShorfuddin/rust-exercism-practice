@@ -1,5 +1,5 @@
-mod nth_prime;
+mod grains;
 
 fn main() {
-    println!("{}", nth_prime::nth(5));
+    dbg!(grains::total());
 }
