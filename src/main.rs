@@ -1,5 +1,10 @@
-mod matching_brackets;
+mod build_proverb;
 
 fn main() {
-    dbg!(matching_brackets::brackets_are_balanced("{what is 42)}?"));
+    println!(
+        "{}",
+        build_proverb::build_proverb(&[
+            "nail", "shoe", "horse", "rider", "message", "battle", "kingdom",
+        ])
+    );
 }
