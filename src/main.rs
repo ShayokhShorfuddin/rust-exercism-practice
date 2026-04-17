@@ -1,5 +1,5 @@
-mod sum_of_multiples;
+mod isbn_verifier;
 
 fn main() {
-    sum_of_multiples::sum_of_multiples(1, &[0]);
+    println!("{}", isbn_verifier::is_valid_isbn("4-598-21507-B"));
 }
