@@ -1,3 +1,5 @@
-mod pangram;
+mod isogram;
 
-fn main() {}
+fn main() {
+    isogram::check("six-year-old");
+}
