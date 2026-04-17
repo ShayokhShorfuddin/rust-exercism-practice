@@ -1,5 +1,3 @@
-mod grains;
+mod pangram;
 
-fn main() {
-    dbg!(grains::total());
-}
+fn main() {}
