@@ -1,16 +1,8 @@
-mod tournament;
+mod hamming;
 
 fn main() {
-    let input: &[&str] = &[
-        "Devastating Donkeys;Blithering Badgers;win",
-        "Devastating Donkeys;Blithering Badgers;win",
-        "Devastating Donkeys;Blithering Badgers;win",
-        "Devastating Donkeys;Blithering Badgers;win",
-        "Blithering Badgers;Devastating Donkeys;win",
-    ];
-    let input = input.join("\n");
-
-    let result = tournament::tally(&input);
-
-    println!("{}", result);
+    dbg!(hamming::hamming_distance(
+        "GAGCCTACTAACGGGAT",
+        "CATCGTAATGACGGCCT"
+    ));
 }
