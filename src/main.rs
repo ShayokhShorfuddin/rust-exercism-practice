@@ -1,5 +1,16 @@
-mod binary_search;
+mod tournament;
 
 fn main() {
-    binary_search::find(&mut [4, 8, 12, 16, 23, 28, 32], 32);
+    let input: &[&str] = &[
+        "Devastating Donkeys;Blithering Badgers;win",
+        "Devastating Donkeys;Blithering Badgers;win",
+        "Devastating Donkeys;Blithering Badgers;win",
+        "Devastating Donkeys;Blithering Badgers;win",
+        "Blithering Badgers;Devastating Donkeys;win",
+    ];
+    let input = input.join("\n");
+
+    let result = tournament::tally(&input);
+
+    println!("{}", result);
 }
